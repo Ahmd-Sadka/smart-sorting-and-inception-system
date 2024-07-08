@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 To install the support package:
 
 On the MATLAB Home tab, in the Environment section, click Add-Ons > Get Hardware Support Packages.
@@ -6,4 +7,14 @@ In the Add-On Explorer, scroll to the Hardware Support Packages section, and cli
 
 Refine the list by selecting Imaging/Cameras in the Refine by Hardware Type section on the left side of the explorer.
 
+=======
+To install the support package:
+
+On the MATLAB Home tab, in the Environment section, click Add-Ons > Get Hardware Support Packages.
+
+In the Add-On Explorer, scroll to the Hardware Support Packages section, and click show all to find your support package.
+
+Refine the list by selecting Imaging/Cameras in the Refine by Hardware Type section on the left side of the explorer.
+
+>>>>>>> f4319c94dc98cdc53b162f63f125dc763aff72a9
 In the Imaging/Cameras list, select the MATLAB Support Package for USB Webcams.

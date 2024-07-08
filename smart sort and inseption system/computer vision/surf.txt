@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 The `matchFeatures` function in MATLAB is used to match features between two images. 
 It takes two feature sets as input and returns a set of index pairs that correspond 
 to the matching features in the two sets.
@@ -15,4 +16,23 @@ the index of the feature in the first set, and the second column is the index of
 
 In the context of the code I provided, `matchFeatures` is used to match the SURF features
 in the captured image with the SURF features in the reference image. 
+=======
+The `matchFeatures` function in MATLAB is used to match features between two images. 
+It takes two feature sets as input and returns a set of index pairs that correspond 
+to the matching features in the two sets.
+
+The `matchFeatures` function uses a nearest-neighbor approach to match features.
+For each feature in the first set, it finds the closest feature in the second set 
+based on Euclidean distance between the feature descriptors. It then applies a ratio test to determine 
+if the match is reliable. Specifically, it checks if the distance to the closest feature is sufficiently smaller 
+than the distance to the second closest feature. If the ratio of the two distances is below a certain threshold, 
+the match is considered valid.
+
+The output of `matchFeatures` is a matrix of index pairs, where each row corresponds to a valid match
+between a feature in the first set and a feature in the second set. The first column of each row is 
+the index of the feature in the first set, and the second column is the index of the feature in the second set.
+
+In the context of the code I provided, `matchFeatures` is used to match the SURF features
+in the captured image with the SURF features in the reference image. 
+>>>>>>> f4319c94dc98cdc53b162f63f125dc763aff72a9
 The resulting index pairs are used to determine if the Pepsi can is present in the captured image.

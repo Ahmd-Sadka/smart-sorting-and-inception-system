@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 web cam functions
 -----------------
 
@@ -55,4 +56,63 @@ end
                      feature = regionprobs(l,'all');
 
          real diameter = 6.62 cm
+=======
+web cam functions
+-----------------
+
+                    1- webcamlist  - cam = webcam (n)  : n : name or number for more one camera
+                    
+                    2-preview (cam)     : cam.AvailableResolutions   : cam.AvailableResolutions  :closepreview(cam);
+
+                    3- img = snapshot(cam);         imshow(img) ;       clear('cam');
+      
+
+
+          cam proberties: 
+                                 Name: 'Logitech Webcam 250'
+                                 Resolution: '640x480'
+                                 AvailableResolutions: {1x11 cell}
+                                 Exposure: -4
+                                 Gain: 253
+                                 Saturation: 32
+                                 WhiteBalance: 8240
+                                 ExposureMode: 'auto'
+                                 Sharpness: 48
+                                 Brightness: 128
+                                 BacklightCompensation: 1
+                                 Contrast: 32  
+arduino configurations 
+----------------------
+                               
+                                a = arduino('COM9','Uno')
+                                configurePin(a,'D3','pullup');
+captured analyzed photo
+----------------------
+                                 
+                               for idx = 1:100
+   % Acquire a single image.
+   rgbImage = snapshot(cam);
+
+   % Convert RGB to grayscale.
+   grayImage = rgb2gray(rgbImage);
+
+   % Find circles.
+   [centers, radii] = imfindcircles(grayImage, [60 80]);
+
+   % Display the image.
+   imshow(rgbImage);
+   hold on;
+   viscircles(centers, radii);
+   drawnow
+end 
+                                
+                                    ---------------------------------------
+
+                     grayImage = rgb2gray(rgbImage);
+                     bw = im2bw(greyimage,0.5)      => threshold
+                     [l,n] = bwlabel(bw);
+                     feature = regionprobs(l,'all');
+
+         real diameter = 6.62 cm
+>>>>>>> f4319c94dc98cdc53b162f63f125dc763aff72a9
          real hieght   = 12.2 cm
