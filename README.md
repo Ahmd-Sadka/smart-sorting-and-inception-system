@@ -1,7 +1,5 @@
 ABSTRACT
- 
- 
- 
+
 Automated systems have many Advantages over manual systems like they have lower cost and high product quality, so the aim of this project we develop an automated smart system for validating and quality tracking for Pepsi cans on a conveyor belt using computer vision and image processing algorithms.
 
  this project consists of a conveyor belt which carry the products which is Pepsi cans in our project with a camera used capture images of the cans as they move along the conveyor belt and employs computer vision techniques via MATLAB to analyze these images and determine whether the cans are valid or invalid.  
@@ -10,61 +8,9 @@ Automated systems have many Advantages over manual systems like they have lower 
 thereby reducing waste and improving efficiency via providing information about cans every day. 
 The project demonstrates the potential of computer vision and robotics in enhancing quality control processes in manufacturing and production environments.
 
+![ss1](https://github.com/Ahmd-Sadka/smart-sorting-and-inception-system/assets/137878288/fe5ba2bc-dec6-4c65-9901-a3ad8e9aacf0)
 
-
-
-Table of contents
-Table of Contents
-Abstract......................................................................................................................... 4
-Table of content 2 ........................................................................................................5
-
-Ch 1: Introduction 
-                   1. Automated systems operations ................................................................6
-                   2. Project summarized overview....................................................................7
-                   3. Methodology and Expected outcomes.....................................................8
-                   4.Team work
-
-Ch 2: Hardware components and software tools 
-                   1.Controllers 
-                   2.Motors and drivers.......................................................................................9
-                   3.Electronic devices .............................................................                        
-                   4.Camera...................................................................................................
-                   5.Software tools.........................................................................
-                   6.Bill of materials.............................................................................................
-
-Ch 3: Portable conveyor belt 
-Hardware components and assembling
-How it works
-Circuit diagram
-Code
-    
-Chapter 4 
-Image Processing & Computer Vision Techniques
-What is image processing?
-Algorithms in image processing
-Types of image processing algorithms 
-Used algorithms.
-Surf algorithm
-Orb algorithm
-Implementation
-Code 
-
-Ch 3: Four DOF robot arm
-Introduction 
-Hardware components 
-How it works
-Inverse kinematics
-Hardware assembling
-Wiring
-Code
-
-Conclusion
-
-Appendix
-
-Appendix A
-Appendix B
-Appendix C
+![ss2](https://github.com/Ahmd-Sadka/smart-sorting-and-inception-system/assets/137878288/ef444bba-4597-4fc5-8c25-5eb45bfccdf7)
 
 Introduction
 
@@ -117,4 +63,3 @@ Improved product quality and consistency, resulting in increased customer satisf
 The project is divided into three stages the first is conveyer which have two engineers to work for the hardware assembling and code 
 Second stage is computer vision which also have two engineers to work 
 The third stage is the biggest which has four engineers the robot arm assembling and code writing, and the testing. 
-
